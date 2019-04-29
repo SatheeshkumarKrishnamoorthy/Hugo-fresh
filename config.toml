@@ -1,0 +1,352 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "eKavin - Digital Energy for Small and Medium Business"
+theme = "fresh" 
+
+[params]
+
+  [params.navbarlogo]
+  image = "logos/fresh.svg"
+  link = "/"
+
+  [params.font]
+  name = "Open Sans"
+  sizes = [
+    400.0,
+    600.0
+  ]
+
+  [params.hero]
+  title = "Empower Business"
+  subtitle = "eKavin Services enables business to increase productivity , reach and profit by providing the softwares and services to run the operations, workflow automation , customer relationship and analytics. eKavin is authorized partner for Zoho - the Operating system for businesses"
+  buttontext = "Get started"
+  buttonlink = "#"
+  image = "illustrations/worker.jpg"
+  
+ 
+ 
+    
+  [params.sidebar]
+  logo = "fresh-square"
+
+    [[params.sidebar.sections]]
+    title = "User"
+    icon = "user"
+
+      [[params.sidebar.sections.links]]
+      text = "Profile"
+      url = "/"
+
+      [[params.sidebar.sections.links]]
+      text = "Account"
+      url = "/"
+
+      [[params.sidebar.sections.links]]
+      text = "Settings"
+      url = "/"
+
+    [[params.sidebar.sections]]
+    title = "Messages"
+    icon = "envelope"
+
+      [[params.sidebar.sections.links]]
+      text = "Inbox"
+      url = "/"
+
+      [[params.sidebar.sections.links]]
+      text = "Compose"
+      url = "/"
+
+    [[params.sidebar.sections]]
+    title = "Images"
+    icon = "image"
+
+      [[params.sidebar.sections.links]]
+      text = "Library"
+      url = "/"
+
+      [[params.sidebar.sections.links]]
+      text = "Upload"
+      url = "/"
+
+    [[params.sidebar.sections]]
+    title = "Settings"
+    icon = "cog"
+
+      [[params.sidebar.sections.links]]
+      text = "User settings"
+      url = "/"
+
+      [[params.sidebar.sections.links]]
+      text = "App settings"
+      url = "/"
+
+  [params.section1]
+  title = "Features"
+  subtitle = "eKavin is authorized partner for Zoho"
+
+    [[params.section1.tiles]]
+    title = "Business App and Tools"
+    icon = "mouse-globe"
+    text = "ekavin builds the Custom apps to run your business – From everyday tasks to complex process automation. eKavin specialist in automating the Workflows that defines and drives your business flawlessly. "
+    url = "/"
+    buttonText = "Get started"
+
+    [[params.section1.tiles]]
+    title = "Digital Transformation"
+    icon = "laptop-cloud"
+    text = "We provides the businesses with handful of tools to guide your digital transformation. When you run a business, you run a lot of things simultaneously. With stakeholders, status updates, and ongoing tasks taking up mental space, it’s only too easy to lose sight of your priorities"
+   
+    url = "/"
+    buttonText = "Get started"
+    
+    [[params.section1.tiles]]
+    title = "Digital Marketing"
+    icon = "plug-cloud"
+    text = "Website visitor tracking and engagement strategies lets you converse and nurture potential leads among unknown visitors. Effective and powerful visitor tracking helps to funnel in the right leads, and live chat will only help you to reach out better. Contact eKavin to discuss further "
+    url = "/"
+    buttonText = "Get started"
+    
+
+  [params.section2]
+  title = "LATEST NEWS"
+  subtitle = "And we know it"
+
+    [[params.section2.features]]
+    title = "How Artificial Intelligence Helps Businesses Detect Anomalies"
+    text = "CRMs can help you identify deviations and stay on track, using machine learning. Every business report is made up of a rollercoaster of trends. Your sales, marketing, or revenue numbers…"
+    icon = "laptop-globe"
+
+    [[params.section2.features]]
+    title = "Zoho CRM: The Product That Meets Every Need"
+    text = "There’s another player in the CRM market, one that isn’t as well-known as Salesforce but its giving them a run for their money. As the industry evolves, the demand for CRM solutions has…"
+    icon = "doc-sync"
+
+    [[params.section2.features]]
+    title = "Zoho Analytics Empowers Organizations to Make Smarter Business Decisions"
+    text = "Zoho Analytics features rich third-party integrations, sleek UI, enhanced visualization options, and more. Pleasanton, Calif—November 15, 2018—Zoho today announced the release of Zoho Analytics, its most advanced self-service business intelligence …"
+    icon = "mobile-feed"
+
+  [params.section3]
+  title = "About us"
+  subtitle = "eKavin accompany you throughout your digital transformation. From our consultants designing solutions to best suit your business needs, through our deployment experts implementing them smoothly, to our customer service, support and management teams who keep everything running optimally and on time."
+  image = "illustrations/mockups/app-mockup.png"
+  buttonText = "Get started"
+  buttonLink = "#"
+
+  [params.section4]
+  title = "Our Services"
+  subtitle = ""
+  
+  
+ 
+  
+    [[params.section4.clients]]
+    name = "Analytics & AI Services"
+    quote = "Discover hidden insights from your raw data Transform huge amounts of raw data into actionable reports and dashboards. Tract your key business metrics, see logtime trends..."
+    
+
+    [[params.section4.clients]]
+    name = "CRM Software - helps to sell"
+    quote = "CRM software that helps you sell smarter, better, faster. Reach out to prospects at the right moment and engage them across every channel. Zoho CRM helps businesses of all sizes close.."
+    
+
+    [[params.section4.clients]]
+    name = "Devlopment and Workflow Automation"
+    quote = "Automate your business process - Get started in three ways. eKavin provides three different ways to build your apps. Create a database application afresh or import data from.."
+    
+     [[params.section4.clients]]
+    name = "Vertical Ready Made Solutions"
+    quote = "Customise our apps and sell it as yours to your customers. eKavin use the Zoho Developer platform to transform your industry expertise into a ready-to-deploy vertical Portal to your customers..."
+    
+    
+    [params.section5]
+    title = "Get in Touch"
+    
+    
+
+  [params.footer]
+  logo = "fresh-white-alt.svg"
+  bulmalogo = false
+
+    [params.footer.quicklinks]
+
+      [params.footer.quicklinks.column1]
+      title = "Product"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Discover features"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Why choose our product?"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Compare features"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Our roadmap"
+        link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+        text = "Request features"
+        link = "/"
+
+      [params.footer.quicklinks.column2]
+      title = "Docs"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "Get started"
+        link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "User guides"
+        link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "Admin guide"
+        link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+        text = "Developers"
+        link = "/"
+
+      [params.footer.quicklinks.column3]
+      title = "Blog"
+
+        [[params.footer.quicklinks.column3.links]]
+        text = "Latest news"
+        link = "/"
+    
+
+        [[params.footer.quicklinks.column3.links]]
+        text = "Tech articles"
+        link = "/"
+
+        [[params.footer.quicklinks.column3.links]]
+        text = "Video blog"
+        link = "/"
+    
+    [params.footer.quicklinks.column4]
+    title = "Contact us"
+    
+     [[params.footer.quicklinks.column4.links]]
+        text = "Add: 167 Rue Hilton"
+        link = "/"
+        
+    [[params.footer.quicklinks.column4.links]]
+        text = "Montreal"
+        link = "/"
+        
+    [[params.footer.quicklinks.column4.links]]
+        text = "H9B2P9"
+        link = "/"
+        
+        
+    [[params.footer.quicklinks.column4.links]]
+        text = "Canada"
+        link = "/"
+      
+    [[params.footer.quicklinks.column4.links]]
+        text = "ph: +1(514)243-3150"
+        link = "/"
+        
+    [[params.footer.quicklinks.column4.links]]
+        text = "kamalg@ekavin.com"
+        link = "/"
+        
+    [[params.footer.socialmedia]]
+    link = "https://github.com/lucperkins/github-fresh"
+    icon = "github"
+
+    [[params.footer.socialmedia]]
+    link = "https://dribbble.com/#"
+    icon = "dribbble"
+
+    [[params.footer.socialmedia]]
+    link = "https://facebook.com/#"
+    icon = "facebook"
+
+    [[params.footer.socialmedia]]
+    link = "https://twitter.com/lucperkins"
+    icon = "twitter"
+
+    [[params.footer.socialmedia]]
+    link = "https://bitbucket.org/#"
+    icon = "bitbucket"
+    
+    [params.contact]
+    enable = true
+    buttonSend = "Send message"
+    buttonClear = "Clear"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below and uncomment
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    # formEmail = "example@domain.com"
+
+    # Contact Section
+    # You can add multiple emails, phone numbers, or addresses
+    # by copying the corresponding map with frontmatter code.
+    [[params.contact.email]]
+    title = "Email"
+    email = "example@domain.com"
+
+    [[params.contact.phone]]
+    title = "Phone"
+    phone = "(000) 000-0000 x1234"
+
+    [[params.contact.address]]
+    title = "Address"
+    street = "Street"
+    city = "City, ST 00000"
+    country = "Country"
+
+
+  [[params.navbar]]
+  title = "Features"
+  url = "/"
+  
+   [[params.navbar]]
+  title = "About"
+  url = "/"
+
+  [[params.navbar]]
+  title = "Services"
+  url = "/"
+  
+  [[params.navbar]]
+  title = "Showreel"
+  url = "/"
+  
+  [[params.navbar]]
+  title = "Gallery"
+  url = "/"
+  
+  [[params.navbar]]
+  title = "team"
+  url = "/"
+  
+  [[params.navbar]]
+  title = "News"
+  url = "/"
+  
+
+  [[params.navbar]]
+  title = "Contact"
+  url = "/"
+  
+  [[params.navbar]]
+  title = "Shop"
+  url = "/"
+  
